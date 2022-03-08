@@ -1,0 +1,37 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:30px;
+	right:25px;
+	background-color:#ffffff;
+	
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 
+    0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index:100;
+}
+.my-float:hover {
+	text-decoration: none;
+	
+  border:  1.1px solid #333333;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none !important;
+
+}
+    .my-float:focus, .my-float.focus {
+
+text-decoration: none;
+	 border:  1.1px solid #333333;
+color: #c3c3c3;
+    }
